@@ -1,0 +1,176 @@
+/* style.css */
+
+html, body {
+    color: black;
+    font-family: 'monotype corsiva', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    border: 14px solid #c5f7eb;
+  }
+  
+  #im {
+    width: 7%;
+    height: 7%;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  
+  #loo {
+    margin-left: auto;
+    color: rgb(12, 11, 11);
+    padding: 0.5% 5% 0.5% 30%;
+    margin: 0.1%;
+    text-decoration: none;
+  }
+  
+  #container {
+    max-width: 400px;
+    margin: auto;
+    color: rgb(22, 22, 59);
+    border-radius: 5px;
+    margin-top: 2.5%;
+    margin-bottom: 7.3%;
+    padding: 10px;
+    position: relative;
+    font-size: 20px;
+  }
+  
+  #dietPlannerLabel {
+    font-size: 56px;
+    color: #55e2e9;
+    font-size: 20px;
+    padding-left: 90px;
+    padding-top: -150px;
+    top: -40%;
+    margin-top: -50px;
+    font-family: 'monotype corsiva';
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 2px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 5px;
+    background-color: #55e2e9;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #user {
+    color: #55e2e9;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+  }
+  
+  #signupForm {
+    color: black;
+  }
+  
+  #lo {
+    color: #0c0c0c;
+    margin-top: -20px;
+    text-align: center;
+  }
+  
+  #sec {
+    margin-top: 5%;
+    padding-left: 9%;
+    margin-left: 20%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #header {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #im {
+    height: 50px;
+  }
+  
+  #dietPlannerLabel {
+    margin-left: 10px;
+  }
+  
+  #navigation {
+    background-color: #55e2e9;
+    padding: 10px;
+    display: flex;
+    padding-left: 63%;
+    padding-right: 20%;
+    margin-top: 40px;
+  }
+  
+  #navigation p, #navigation a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  #content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Additional styles can be added as needed */
+  /* style.css */
+
+#content {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #aboutSection, #featuresSection, #dietPlannersContainer, #contactSection {
+    margin-bottom: 20px;
+  }
+  
+  #dietPlannersContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .dietPlanner {
+    width: 30%;
+    padding: 20px;
+    border: 2px solid #55e2e9;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #e9f4f7;
+  }
+  
+  #dietPlanner1, #dietPlanner2, #dietPlanner3 {
+    width: calc(25% - 5px); /* Adjust the width based on your design */
+    margin: 10px;
+    text-align: center;
+  }
+  

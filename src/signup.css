@@ -1,0 +1,75 @@
+.Signup {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.Signin
+     {
+        display: flex;
+        flex-direction: column; /* Stack children vertically */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+        font-size: 1px;
+    }
+
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center; /* Center text within the form */
+}
+
+#go {
+    color: rgb(6, 4, 21);
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+button {
+    background-color:#55e2e9;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding for left and right */
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+
+button:hover {
+    background-color: #c5f7eb;
+}
+
